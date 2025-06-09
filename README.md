@@ -20,9 +20,6 @@ This repository contains the official implementation for **DualPrompt**, a novel
 - [Usage](#usage)
   - [Datasets](#datasets)
   - [Running the Code](#running-the-code)
-- [License](#license)
-- [Citation](#citation)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -171,7 +168,7 @@ Here is the requested "Running the Experiments" section in Markdown format.
 
 ---
 
-## **Running the Experiments**
+## Running the Code
 
 This section outlines the commands to train and evaluate the **DualPrompt** model in both centralized and federated learning environments.
 
