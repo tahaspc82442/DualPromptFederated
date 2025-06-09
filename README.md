@@ -225,16 +225,13 @@ bash scripts/dualpromptfl/xd_train_dualprompt.sh --dataset PatternNet --seed 42
 ```
 *(Note: Replace `--dataset` with the name of the dataset used in your federated setup.)*
 
-#### **2. Federated Testing**
+#### **2. Centralized training**
 
 After federated training is complete, this script evaluates the performance of a specific global model checkpoint.
 
 ##### **Syntax**
 ```bash
-bash scripts/dualpromptfl/xd_test_dualprompt.sh --dataset [UNIFIED_DATASET] --seed [SEED_NUMBER] -epoch [EPOCH_TO_TEST]
+bash scripts/dualpromptcentralized/xd_train_dualprompt.sh --dataset [UNIFIED_DATASET] --seed [SEED_NUMBER]
 ```
 
-##### **Example (Evaluating the model from round 50)**
-```bash
-bash scripts/dualpromptfl/xd_test_dualprompt.sh --dataset PatternNet --seed 42 -epoch 50
-```
+
